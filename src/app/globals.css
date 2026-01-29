@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --coffee-primary: #78350f;
+  --coffee-secondary: #92400e;
+  --coffee-cta: #fbbf24;
+  --coffee-bg: #fef3c7;
+  --coffee-text: #451a03;
+}
+
+@theme inline {
+  --font-sans: var(--font-karla);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--coffee-bg);
+  color: var(--coffee-text);
+  font-family: var(--font-karla), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.display {
+  font-family: var(--font-playfair), "Times New Roman", serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
