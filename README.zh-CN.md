@@ -4,7 +4,7 @@
 
 ### 项目截图
 
-![Arbor Coffee 预览](public/preview.svg)
+![Arbor Coffee 预览](public/preview.png)
 
 ### 项目亮点
 
